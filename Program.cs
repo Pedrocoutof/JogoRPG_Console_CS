@@ -2,11 +2,13 @@
 
 public class Program{
         static void Main(){
-        Player player = new Player("Pedro", 100, 10);
+        Player player = new Player("", 100, 10);
         Menu menu = new Menu();
         int rodada = 0;
         Random rand = new Random();
         rand.Next(8);
+
+        menu.menuInicial(player);
         
 
         do{

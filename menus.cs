@@ -76,4 +76,10 @@ public class Menu{
 
     }
 
+    public void menuInicial(Player player){
+
+        Console.WriteLine("Digite o nome do seu personagem: ");
+        string nome = Console.ReadLine()!;
+        player.setNome(nome);
+    }
 }

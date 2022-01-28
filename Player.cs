@@ -23,6 +23,10 @@ public class Player : Personagem{
         }
         return false;
     }
+    public void setNome(string nome){
+        this.nome = nome;
+    }
+
     public void vidaUp(){
         vida+=10;
     }
